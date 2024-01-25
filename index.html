@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+   <div class="container">
+    <!-- HEADER -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name"><a href="#" style="text-decoration: none; color: rgb(30, 159, 171);">Aniket's Portfolio</a></p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About Me</a>
+                    <div class="circle"></div>
+                </li>
+
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn" > <a href="https://drive.google.com/file/d/13GAfbXFxuSbfNWHFRMYwBXvk4wkfJaWL/view?usp=sharing" style="text-decoration: none;">View Resume</a></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- MAIN -->
+    <main class="wrapper">
+       <!-- FEATURED BOx -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Aniket Parbhankar</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm a <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Passionate tech enthusiast with a strong desire to excel as a web developer. Dedicated to continuous learning and eager to
+                contribute innovative solutions to drive impactful projects.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">
+                    <a href="https://github.com/Aniket2003p" target="_blank">GitHub</a>
+                </button>
+                <button class="btn"><a href="https://drive.google.com/file/d/13GAfbXFxuSbfNWHFRMYwBXvk4wkfJaWL/view?usp=sharing" style="text-decoration: none;">View Resume</a></button>
+            </div>
+            <div class="social_icons">
+
+                <a href="https://www.linkedin.com/in/aniket-parbhankar-458829220/" target="_blank" class="icon_links">
+                    <div class="icon"><i class="fa fa-linkedin"></i></div></a>
+                <a href="https://github.com/Aniket2003p" target="_blank" class="icon_links">
+                    <div class="icon"><i class="fa fa-github"></i></div></a>
+                <a href="https://twitter.com/_annix_jain_03" target="_blank" class="icon_links">
+                    <div class="icon"><i class="fa fa-twitter"></i></div></a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="avatar.jpg" alt="avatar">
+            </div>
+          </div>
+
+       </section>
+       
+       <!-- PROJECT BOX  -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <img src="myntra.png" alt="">
+                <h3>Myntra Clone</h3>
+            </div>
+            <div class="project-box">
+                <img src="invoice2.png" alt="">
+                <h3>Invoice Management System</h3>
+            </div>
+            <div class="project-box">
+                <img src="resume.png" alt="">
+                <h3>Portfolio Website</h3>
+            </div>
+          </div>
+       </section>
+<!-- ABOUT BOX -->
+<section class="section" id="about">
+    <div class="top-header">
+      <h1>About Me</h1>
+    </div>
+    <div class="row">
+      <div class="col">
+          <div class="about-info">
+              <h3>My introduction</h3>
+              <p> I am currently a fourth-year Information Technology student, deeply immersed in the ever-evolving world of technology. I'm eagerly seeking exciting opportunities that not only allow me to apply my knowledge but also foster continuous growth on my journey as a dedicated tech enthusiast.
+              </p>
+          </div>
+      </div>
+      <div class="col">
+          <div class="skills-box">
+              <h3>Skills</h3>
+              <div class="skills-list">
+                  <span>JAVA</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>React</span>
+                  <span>Bootstrap</span>
+                  <span>MySQL</span>
+                  <span>PHP</span>
+                  <span>Communication</span>
+                  <span>Collaborative</span>
+              </div>
+          </div>
+      </div>
+    </div>
+    
+ </section>
+
+       <!--  CONTACT BOX -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Contact</h1>
+
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Contact Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="name"></i> Name: Aniket Parbhankar</p>
+                    <p><i class="email"></i> Email: aniket.parbhankar@gmail.com</p>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+    <!-- FOOTER  -->
+    <footer>
+         <div class="top-footer">
+            <p>Get In Touch</p>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://www.linkedin.com/in/aniket-parbhankar-458829220/" target="_blank" class="icon_links">
+            <div class="icon"><i class="fa fa-linkedin"></i></div></a>
+            <a href="https://github.com/Aniket2003p" target="_blank" class="icon_links">
+            <div class="icon"><i class="fa fa-github"></i></div></a>
+            <a href="https://twitter.com/_annix_jain_03" target="_blank" class="icon_links">
+            <div class="icon"><i class="fa fa-twitter"></i></div></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Aniket Parbhankar</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- TYPING JS Link -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
+    <!-- MAIN JS  -->
+    <script src="script.js"></script>
+</body>
+</html>
